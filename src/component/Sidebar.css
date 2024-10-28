@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden; /* Disable scrolling */
+}
+.header-color {
+  background-color: rgb(225, 218, 218);
+}
+.Sidebar {
+  width: 60px;
+  align-items: center;
+  height: 100vh;
+}
+.container-fluid {
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+}
+.navbar {
+  padding-bottom: 0%;
+}
+.main-container {
+  height: 100%;
+  margin: 0;
+  position: fixed;
+}
+.height-navbar {
+  height: 50px;
+}
+.sidebar-menu {
+  display: flex;
+  height: 100vh;
+  margin-left: 48px;
+  /* position: fixed; */
+  /* flex: 1; */
+}
+.img-container {
+  height: 75vh;
+  /* width: auto; */
+  margin-top: 30px;
+}
+.img {
+  height: 100%;
+  width: auto;
+}
+/* Add styles for the active icon */
+.marker-icon {
+  cursor: pointer; /* Change cursor to pointer */
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.marker-icon:hover {
+  color: #007bff; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+.active-icon {
+  color: rgb(
+    57,
+    55,
+    55
+  ); /* Change the color for active state (you can choose any color) */
+  transform: scale(1.2); /* Slightly enlarge the icon when active */
+}
+
+  
+.content-container {
+  /* flex: 1; */
+  margin-left: 60px; /* Same as the sidebar width */
+  padding: 20px;
+}
+/* Image container styles */
+.image-container {
+  border: 2px dashed black;
+  margin-left: 40px;
+  width: auto;
+  height: 80vh;
+  margin-top: 40px;
+  /* border-radius: 8px;  */
+}
+.img-pic {
+  height: 75vh;
+}
+.responsive-image {
+  height: auto;
+}
+.Sidebar-margin {
+  margin-left: 48px;
+}
+
+/* Optional: Custom style for the placeholder text to also match */
+
+.header-margin {
+  margin-left: 48px;
+}
+.header-content {
+  margin-left: 50px;
+}
+
+
+.sidebar {
+  padding: 10px; /* Add some padding */
+}
+.img-container {
+  position: relative; /* Ensure positioning context */
+  overflow: auto;   /* Hide overflow */
+      /* Set height according to your layout */
+}
+.edit-canvas {
+  display: block; /* Ensures no extra spacing around canvas */
+}
+
